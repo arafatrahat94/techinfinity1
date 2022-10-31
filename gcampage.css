@@ -1,0 +1,80 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+
+    background-image: linear-gradient(yellow, white);
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding-left: 2%;
+}
+#first-line{
+    display: flex;
+}
+.separating{
+    margin: 2%;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+.linkpadfst > a{
+    padding: 0% 20px;
+    text-decoration: none;
+}
+.linkpadfst{
+    padding-left: 2%;
+}
+.linkpad{
+    background-image: linear-gradient(red, #ffe600);
+    color: rgb(1, 0, 0);
+    padding: 20px 40px;
+    font-weight: 520;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.linkpad:hover{
+    background-image: linear-gradient(rgb(0, 247, 255), rgb(5, 76, 255));
+}
+.jui > a{
+    text-decoration: none;
+}
+header{
+    text-align: center;
+}
+.headerstyle{
+    background-image: linear-gradient(orangered, rgb(255, 251, 3));
+    margin: 0% 30%;
+    padding: 10px;
+    border-radius: 20px;
+    border: #000000 4px solid;
+    font-weight: 550;
+}
+#head{
+    padding-top: 30px;
+}
+#link{
+    display: flex;
+}
+.one{
+    padding-left: 14.5%;
+}
+
+.joss{
+    background: #66ccff;
+    font-weight: 700;
+    font-size: 30px;
+    align-items: center;
+    border-radius: 10px;
+    border: #000000 2px solid;
+}
+.joss:hover{
+    background-image: linear-gradient(red,black);
+    color: aliceblue;
+}
+#foot{
+    margin-top: 10%;
+    margin-left: 23%;
+    margin-right: 23%;
+    align-items: center;
+}
+footer p{
+    text-align: center;
+}
+
